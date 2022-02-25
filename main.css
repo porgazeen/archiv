@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-color: #000;
+    box-shadow: 0 8px 12px #0008;
+    color: #fff;
+    height: 36px;
+    padding: 6px 24px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 24px;
+}
+
+main {
+    align-content: end;
+    column-gap: 36px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+    margin: 96px auto;
+    max-width: 80%;
+    row-gap: 36px;
+}
+
+img {
+    box-shadow: 6px 6px 12px 2px #0008;
+    transition: transform .25s ease;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+p {
+    margin: -18px auto 48px;
+    max-width: 70vw;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
