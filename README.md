@@ -1,3 +1,3 @@
 # 📰 Archiv PORGazeenu
 
-*inspirováno archivem Vojty Staňka*
+*Inspirováno archivem Vojty Staňka*
